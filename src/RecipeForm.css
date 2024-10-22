@@ -1,0 +1,80 @@
+/* RecipeForm.css */
+
+/* Set global font and background */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.recipe-form-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6f61;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff6f61;
+}
+
+button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3b28;
+}
+
+button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #ff6f61;
+}
+
+p {
+  font-size: 1.1rem;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}

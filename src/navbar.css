@@ -1,0 +1,35 @@
+nav {
+  padding: 15px;
+  background-color: rgb(213, 170, 113);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100vw;
+  margin: 0;
+}
+ul {
+  display: flex;
+  font-size: large;
+  text-decoration: none;
+  color: rgb(119, 42, 42);
+}
+li {
+  list-style: none;
+  display: flex;
+  padding-right: 50px;
+}
+
+a {
+  color: rgb(2, 6, 18);
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+a:hover {
+  color: #85005d;
+  border-radius: 1px;
+}
+.App {
+  margin: 0;
+  padding: 0;
+}
